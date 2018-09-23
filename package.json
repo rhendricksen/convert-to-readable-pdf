@@ -1,0 +1,18 @@
+{
+  "name": "convert_pdf",
+  "version": "1.0.0",
+  "description": "Covert image pdf's to searchable pdf's",
+  "main": "index.js",
+  "author": "Richard Hendricken <richard.hendricksen@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "install:pdffonts": "brew install poppler",
+    "install:ghostscript": "brew install ghostscript",
+    "install:tesseract": "brew install tesseract --all-languages",
+    "install": "npm-run-all install:*",
+    
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.3"
+  }
+}
