@@ -9,8 +9,7 @@
     "install:pdffonts": "brew install poppler",
     "install:ghostscript": "brew install ghostscript",
     "install:tesseract": "brew install tesseract --all-languages",
-    "install": "npm-run-all install:*",
-    
+    "install": "npm-run-all install:*"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.3"
